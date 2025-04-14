@@ -1,0 +1,244 @@
+table Automobile_data
+	lineageTag: de59545a-a5ba-4467-90f9-b360701453c0
+
+	column symboling
+		dataType: int64
+		formatString: 0
+		lineageTag: 7890270f-b86e-4da3-9dec-4404b1a0c398
+		summarizeBy: sum
+		sourceColumn: symboling
+
+		annotation SummarizationSetBy = Automatic
+
+	column normalized-losses
+		dataType: string
+		lineageTag: 56dfa793-d608-4404-bc42-c9bf2420afd9
+		summarizeBy: none
+		sourceColumn: normalized-losses
+
+		annotation SummarizationSetBy = Automatic
+
+	column make
+		dataType: string
+		lineageTag: 9ae3055f-33c2-416b-bb3c-cf1ce1310163
+		summarizeBy: none
+		sourceColumn: make
+
+		annotation SummarizationSetBy = Automatic
+
+	column fuel-type
+		dataType: string
+		lineageTag: 6e1c8434-aec9-4a71-a02a-f8a353a287e5
+		summarizeBy: none
+		sourceColumn: fuel-type
+
+		annotation SummarizationSetBy = Automatic
+
+	column aspiration
+		dataType: string
+		lineageTag: a1cc2c12-c02a-4396-915e-9a09ac40dc19
+		summarizeBy: none
+		sourceColumn: aspiration
+
+		annotation SummarizationSetBy = Automatic
+
+	column num-of-doors
+		dataType: string
+		lineageTag: 4d401bfb-1eba-4409-8517-a74fd9f135ff
+		summarizeBy: none
+		sourceColumn: num-of-doors
+
+		annotation SummarizationSetBy = Automatic
+
+	column body-style
+		dataType: string
+		lineageTag: f71300b8-8de0-4809-9136-8c01e73b1620
+		summarizeBy: none
+		sourceColumn: body-style
+
+		annotation SummarizationSetBy = Automatic
+
+	column drive-wheels
+		dataType: string
+		lineageTag: 240be2ad-2bf9-4d72-8fca-68e488a782d8
+		summarizeBy: none
+		sourceColumn: drive-wheels
+
+		annotation SummarizationSetBy = Automatic
+
+	column engine-location
+		dataType: string
+		lineageTag: c8801254-3985-4bc9-9017-2cbfb6a19348
+		summarizeBy: none
+		sourceColumn: engine-location
+
+		annotation SummarizationSetBy = Automatic
+
+	column wheel-base
+		dataType: double
+		lineageTag: f30db5ec-41b8-4392-93a9-c1301fea7538
+		summarizeBy: sum
+		sourceColumn: wheel-base
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column length
+		dataType: double
+		lineageTag: 1d3bac6b-b2ef-4cba-b182-36debb225620
+		summarizeBy: sum
+		sourceColumn: length
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column width
+		dataType: double
+		lineageTag: f8553d49-ec9f-4462-9405-cbecdef17900
+		summarizeBy: sum
+		sourceColumn: width
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column height
+		dataType: double
+		lineageTag: a0b86010-4848-4ef4-ab8d-8ca479bf7d36
+		summarizeBy: sum
+		sourceColumn: height
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column curb-weight
+		dataType: int64
+		formatString: 0
+		lineageTag: b0280f1b-bca9-418f-897e-2ee0a52a60dd
+		summarizeBy: sum
+		sourceColumn: curb-weight
+
+		annotation SummarizationSetBy = Automatic
+
+	column engine-type
+		dataType: string
+		lineageTag: 206bc0b6-4182-4a4f-ad1d-492ea417f827
+		summarizeBy: none
+		sourceColumn: engine-type
+
+		annotation SummarizationSetBy = Automatic
+
+	column num-of-cylinders
+		dataType: string
+		lineageTag: 3310c276-e8d6-479d-aae0-45e70b03485f
+		summarizeBy: none
+		sourceColumn: num-of-cylinders
+
+		annotation SummarizationSetBy = Automatic
+
+	column engine-size
+		dataType: int64
+		formatString: 0
+		lineageTag: a84b768b-6e0b-407f-9c9d-b22875396695
+		summarizeBy: sum
+		sourceColumn: engine-size
+
+		annotation SummarizationSetBy = Automatic
+
+	column fuel-system
+		dataType: string
+		lineageTag: 13a703fa-8c92-425d-b732-ef744b7f3f95
+		summarizeBy: none
+		sourceColumn: fuel-system
+
+		annotation SummarizationSetBy = Automatic
+
+	column bore
+		dataType: string
+		lineageTag: 0db2138e-6a50-4c16-b862-c09c1b475466
+		summarizeBy: none
+		sourceColumn: bore
+
+		annotation SummarizationSetBy = Automatic
+
+	column stroke
+		dataType: string
+		lineageTag: c99b85a2-7d4b-4524-95e3-950907e5105a
+		summarizeBy: none
+		sourceColumn: stroke
+
+		annotation SummarizationSetBy = Automatic
+
+	column compression-ratio
+		dataType: double
+		lineageTag: 1b5b35ac-5b2e-4aa7-b72c-bdaac6e53db6
+		summarizeBy: sum
+		sourceColumn: compression-ratio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column horsepower
+		dataType: string
+		lineageTag: 704c523f-7fe4-472f-801e-16efa199c68b
+		summarizeBy: none
+		sourceColumn: horsepower
+
+		annotation SummarizationSetBy = Automatic
+
+	column peak-rpm
+		dataType: string
+		lineageTag: bc4b95b1-efea-4d8a-a109-0db7cec49c84
+		summarizeBy: none
+		sourceColumn: peak-rpm
+
+		annotation SummarizationSetBy = Automatic
+
+	column city-mpg
+		dataType: int64
+		formatString: 0
+		lineageTag: 5b3b2a76-b5a0-4560-a843-badb830387fd
+		summarizeBy: sum
+		sourceColumn: city-mpg
+
+		annotation SummarizationSetBy = Automatic
+
+	column highway-mpg
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f6d6901-7c32-46e9-a65c-4d9e87fe9a0c
+		summarizeBy: sum
+		sourceColumn: highway-mpg
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b5a2a87-9b01-40f9-80d8-b397a35e1737
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Automobile_data = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\leona\OneDrive\Área de Trabalho\code\simple_demo_page_pbi\template\PowerBI_project\Automobile_data.csv"),[Delimiter=",", Columns=26, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"symboling", Int64.Type}, {"normalized-losses", type text}, {"make", type text}, {"fuel-type", type text}, {"aspiration", type text}, {"num-of-doors", type text}, {"body-style", type text}, {"drive-wheels", type text}, {"engine-location", type text}, {"wheel-base", type number}, {"length", type number}, {"width", type number}, {"height", type number}, {"curb-weight", Int64.Type}, {"engine-type", type text}, {"num-of-cylinders", type text}, {"engine-size", Int64.Type}, {"fuel-system", type text}, {"bore", type text}, {"stroke", type text}, {"compression-ratio", type number}, {"horsepower", type text}, {"peak-rpm", type text}, {"city-mpg", Int64.Type}, {"highway-mpg", Int64.Type}, {"price", type text}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Tipo Alterado","?","",Replacer.ReplaceText,{"normalized-losses"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído","?","",Replacer.ReplaceText,{"price"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Valor Substituído1",{{"price", Int64.Type}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

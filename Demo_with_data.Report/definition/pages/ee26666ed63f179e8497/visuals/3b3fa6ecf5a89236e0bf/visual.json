@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "3b3fa6ecf5a89236e0bf",
+  "position": {
+    "x": 712.18077354729564,
+    "y": 135.84951171711421,
+    "z": 1000,
+    "height": 487.13713797551048,
+    "width": 277.18789259451586,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Automobile_data"
+                    }
+                  },
+                  "Property": "make"
+                }
+              },
+              "queryRef": "Automobile_data.make",
+              "nativeQueryRef": "make"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Automobile_data"
+                        }
+                      },
+                      "Property": "price"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Automobile_data.price",
+              "nativeQueryRef": "Média de price"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'None'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
