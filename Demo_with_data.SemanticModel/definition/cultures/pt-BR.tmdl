@@ -3,7 +3,16 @@ cultureInfo pt-BR
 	linguisticMetadata =
 			{
 			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Language": "en-US",
+			  "Entities": {
+			    "automobile_data.make": {
+			      "Binding": {
+			        "ConceptualEntity": "Automobile_data",
+			        "ConceptualProperty": "make"
+			      },
+			      "State": "Generated"
+			    }
+			  }
 			}
 		contentType: json
 

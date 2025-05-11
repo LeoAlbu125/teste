@@ -6,15 +6,16 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["Automobile_data"]
+annotation PBI_QueryOrder = ["Automobile_data","Tabela"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.141.1558.0 (25.03)+75b5f06a991f8f8a8a4d6b6fcd0f66e1ec2d6fdc
+annotation PBIDesktopVersion = 2.142.1277.0 (25.04)+014fde450f93691fc9537f0758d73d1c5df153ef
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table Automobile_data
+ref table Tabela
 
 ref cultureInfo pt-BR
 
